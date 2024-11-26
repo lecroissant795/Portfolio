@@ -9,7 +9,7 @@ const arvo = Arvo({subsets: ['latin'], variable: '--font-serif', weight: ['400']
 
 export const metadata: Metadata = {
   title: "My Portfolio",
-  description: "My Portfolio",
+  description: "Tom Nguyen Portfolio",
 };
 
 export default function RootLayout({

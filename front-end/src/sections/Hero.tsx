@@ -92,9 +92,6 @@ export const HeroSection = () => {
             <span>👋</span>
             <span>Let's Connect</span>
           </button>
-          <button className="inline-flex items-center gap-2 bg-purple-300 text-gray-900 px-6 h-12 rounded-xl">
-            <span>Download My CV</span>
-          </button>
         </div>
       </div>
     </div>
