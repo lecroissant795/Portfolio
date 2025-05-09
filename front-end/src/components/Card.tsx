@@ -22,7 +22,7 @@ export const Card = ({ className, children }:PropsWithChildren< { className?: st
         after:rounded-3xl 
         after:outline-white/20 
         after:pointer-events-none
-        p-6
+      
       `, className)}
     >
       <div
