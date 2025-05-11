@@ -1,3 +1,5 @@
+
+
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import StarIcon from "@/assets/icons/star.svg";
@@ -83,7 +85,7 @@ const hobbies = [
 
 export const AboutSection = () => {
   return (
-    <div className="py-20 lg:py-28">
+    <div id="about" className="py-20 lg:py-28">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
@@ -101,7 +103,7 @@ export const AboutSection = () => {
                 <Image src={bookImage2} alt="Book Cover" />
               </div>
             </Card>
-            <Card className="h-[320px] md:col-span-3 lg:col-span-2">
+            <Card className="h-[320px] w-full md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
                 description="Explore the techonologies and tools I use to craft exceptional digital experiences."

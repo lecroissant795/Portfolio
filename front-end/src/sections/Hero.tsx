@@ -1,3 +1,6 @@
+"use client";
+import { useState, useEffect } from "react";
+
 import memojiImage from "@/assets/images/memoji-hii.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
@@ -8,7 +11,10 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div
+      id="hero"
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+    >
       <div
         className="absolute inset-0"
         style={{
@@ -29,59 +35,72 @@ export const HeroSection = () => {
         <div className="size-[880px] hero-ring"></div>
         <div className="size-[1080px] hero-ring"></div>
         <div className="size-[1280px] hero-ring"></div>
-        <HeroOrbit size={430} rotation={-15}
-        shouldOrbit
-        orbitDuration="30s"
-        shouldSpin
-        spinDuration="3s"
+        <HeroOrbit
+          size={430}
+          rotation={-15}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="3s"
         >
           <SparkleIcon className="size-8 text-purple-300/20" />
         </HeroOrbit>
-        <HeroOrbit size={440} rotation={80}
-        shouldOrbit
-        orbitDuration="32s"
-        shouldSpin
-        spinDuration="3s"
+        <HeroOrbit
+          size={440}
+          rotation={80}
+          shouldOrbit
+          orbitDuration="32s"
+          shouldSpin
+          spinDuration="3s"
         >
           <SparkleIcon className="size-5 text-purple-300/20" />
         </HeroOrbit>
-        <HeroOrbit size={530} rotation={180}
-        shouldOrbit
-        orbitDuration="34s"
-        shouldSpin
-        spinDuration="3s"
+        <HeroOrbit
+          size={530}
+          rotation={180}
+          shouldOrbit
+          orbitDuration="34s"
+          shouldSpin
+          spinDuration="3s"
         >
           <SparkleIcon className="size-10 text-purple-300/20" />
         </HeroOrbit>
-        <HeroOrbit size={550} rotation={20}
-        shouldOrbit
-        orbitDuration="36s"
-        shouldSpin
-        spinDuration="3s"
+        <HeroOrbit
+          size={550}
+          rotation={20}
+          shouldOrbit
+          orbitDuration="36s"
+          shouldSpin
+          spinDuration="3s"
         >
           <StarIcon className="size-12 text-purple-300" />
         </HeroOrbit>
-        <HeroOrbit size={590} rotation={98}
-        shouldOrbit
-        orbitDuration="38s"
-        shouldSpin
-        spinDuration="6s"
-        >
-        </HeroOrbit>
-          <StarIcon className="size-8 text-purple-300" />
-        <HeroOrbit size={710} rotation={150}
-        shouldOrbit
-        orbitDuration="40s"
-        shouldSpin
-        spinDuration="6s"
+        <HeroOrbit
+          size={590}
+          rotation={98}
+          shouldOrbit
+          orbitDuration="38s"
+          shouldSpin
+          spinDuration="6s"
+        ></HeroOrbit>
+        <StarIcon className="size-8 text-purple-300" />
+        <HeroOrbit
+          size={710}
+          rotation={150}
+          shouldOrbit
+          orbitDuration="40s"
+          shouldSpin
+          spinDuration="6s"
         >
           <SparkleIcon className="size-14 text-purple-300/20" />
         </HeroOrbit>
-        <HeroOrbit size={800} rotation={-70}
-        shouldOrbit
-        orbitDuration="42s"
-        shouldSpin
-        spinDuration="6s"
+        <HeroOrbit
+          size={800}
+          rotation={-70}
+          shouldOrbit
+          orbitDuration="42s"
+          shouldSpin
+          spinDuration="6s"
         >
           <StarIcon className="size-28 text-purple-300" />
         </HeroOrbit>
@@ -117,11 +136,14 @@ export const HeroSection = () => {
             challenge myself and grow. Let’s explore what the future holds
             together!
           </p>
+          
         </div>
+        
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-4 h-12 rounded-xl">
+          <button
+            className="inline-flex items-center gap-2 border border-white/15 px-4 h-12 rounded-xl" >
             <span className="font-semibold">About Me</span>
             <ArrowDown className="w-4 h-4" />
           </button>
