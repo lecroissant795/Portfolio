@@ -82,7 +82,7 @@ export const Header = () => {
     <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
       <a href="#hero" onClick={(e) => handleNavClick(e, "hero")} className={`nav-item ${activeSection === "hero" ? "bg-white text-gray-900" : ""}`}>Home</a>
       <a href="#about" onClick={(e) => handleNavClick(e, "about")} className={`nav-item ${activeSection === "about" ? "bg-white text-gray-900" : ""}`}>About</a>
-      <a href="#projects" onClick={(e) => handleNavClick(e, "projects")} className={`nav-item ${activeSection === "projects" ? "bg-white text-gray-900" : ""}`}>Projects</a>
+      {/* <a href="#projects" onClick={(e) => handleNavClick(e, "projects")} className={`nav-item ${activeSection === "projects" ? "bg-white text-gray-900" : ""}`}>Projects</a> */}
       <a href="#testimonials" onClick={(e) => handleNavClick(e, "testimonials")} className={`nav-item ${activeSection === "testimonials" ? "bg-white text-gray-900" : ""}`}>Testimonials</a>
     </nav>
   </div>;

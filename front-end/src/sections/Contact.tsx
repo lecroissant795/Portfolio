@@ -18,16 +18,18 @@ export const ContactSection = () => {
                 Ping Me Anytime
               </h2>
               <p className="text-sm md:text-base mt-2">
-                I’m always open to new opportunities, collaborations, or just a
-                good chat. Whether you’ve got a project in mind or just want to
-                say hi — don’t hesitate to reach out!
+                I'm always open to new opportunities, collaborations, or just a
+                good chat. Whether you've got a project in mind or just want to
+                say hi — don't hesitate to reach out!
               </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 relative w-max border border-gray-900">
+              <a 
+                href="mailto:tomnguyen796@gmail.com" 
+                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 relative w-max border border-gray-900 hover:bg-gray-800 transition-colors cursor-pointer">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
