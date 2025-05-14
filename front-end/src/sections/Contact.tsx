@@ -18,9 +18,9 @@ export const ContactSection = () => {
                 Ping Me Anytime
               </h2>
               <p className="text-sm md:text-base mt-2">
-                I'm always open to new opportunities, collaborations, or just a
-                good chat. Whether you've got a project in mind or just want to
-                say hi — don't hesitate to reach out!
+                I&apos;m always open to new opportunities, collaborations, or just a
+                good chat. Whether you&apos;ve got a project in mind or just want to
+                say hi — don&apos;t hesitate to reach out!
               </p>
             </div>
             <div>

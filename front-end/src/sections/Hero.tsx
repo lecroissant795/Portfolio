@@ -136,13 +136,13 @@ export const HeroSection = () => {
         {/* Title and Description */}
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Hi, I'm Thomas
+            Hi, I&apos;m Thomas
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I am an enthusiastic student who enjoys learning and exploring new
-            ideas. Whether it's diving into creative projects, mastering new
-            skills, or dreaming up innovative solutions, I'm always eager to
-            challenge myself and grow. Let's explore what the future holds
+            I am an enthusiastic student who enjoys learning and exploring new
+            ideas. Whether it&apos;s diving into creative projects, mastering new
+            skills, or dreaming up innovative solutions, I&apos;m always eager to
+            challenge myself and grow. Let&apos;s explore what the future holds
             together!
           </p>
           
@@ -164,7 +164,7 @@ export const HeroSection = () => {
             className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 h-12 rounded-xl hover:opacity-90 transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50"
           >
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>

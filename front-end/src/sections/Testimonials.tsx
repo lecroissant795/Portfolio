@@ -12,32 +12,32 @@ import { Fragment } from "react";
 const testimonials = [
   {
     name: "Leonardo Critchley",
-    position: "Student | The University of Auckland \n @cleonardo.c",
-    text: "",
+    position: "Friend \n @cleonardo.c",
+    text: "He’s got this mix of brainpower and chill that’s rare. Whether it’s geeking out over a cool idea or just being there for someone, Tom has got this solid vibe that makes people feel like they can trust you.",
     avatar: memojiAvatar1,
   },
   {
     name: "Daniel Tasker",
-    position: "@therangagod",
-    text: "The man is gay!",
+    position: "Friend \n @therangagod",
+    text: "Thomas has this calm confidence that makes people feel at ease. Like, even when things get hectic, he doesn’t freak out — Tom thinks it through, handles it, and somehow still manages to crack a joke and keep the vibe light. ",
     avatar: memojiAvatar2,
   },
   {
     name: "Kathleen Ly",
-    position: "@kqthlenn",
-    text: "Fatass who sleeps all day lowkey.",
+    position: "Student | The University of Auckland \n @kqthlenn",
+    text: "Fatass who sleeps all day. No but really, one thing I’ve always admired about Tom is how real he is. Tom doesn’t put on a front or try to be someone he’s not. He has this quiet strength and a good heart.",
     avatar: memojiAvatar3,
   },
   {
     name: "Ricky Chen",
-    position: "@ani_bizu",
-    text: "*Hasn't responded*",
+    position: "Student | The University of Auckland \n @ani_bizu",
+    text: "This guy lowkey got charisma that sneaks up on people. Like, he’s not trying to impress anyone, but somehow end up being the one everyone wants to talk to. Tom’s got good energy, sharp wit, and just the right amount of mischief — makes hanging out with you always feel easy and fun.",
     avatar: memojiAvatar4,
   },
   {
     name: "Pham Khoa",
-    position: "@_lemon.1209_",
-    text: "I don't even know this guy.",
+    position: "Friend \n@_lemon.1209_",
+    text: "He has this really cool way of making people feel like they belong. Whether it’s a deep convo or just messing around, Tom gives this vibe that makes people feel included and comfortable. It’s like… when Tom is around, everything feels a bit more chill, a bit more right. Honestly the kind of friend people don’t forget.",
     avatar: memojiAvatar5,
   },
 ];
@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
           description="Don't worry, I told them to be honest."
         />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:60s] hover:[animation-play-state:paused]">
+          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:50s] hover:[animation-play-state:paused]">
           {[...new Array(2)].fill(0).map((_, index) =>(
             <Fragment key={index}>
               {testimonials.map((testimonial) => (
